@@ -37,6 +37,13 @@ for(let i=0;i<btnsopenmodal.length;i++)
      overlay.addEventListener('click',closemodal);
 //there we didnt wrote()after closemodal ,coz as soon as js exceutes it runs, so we want only when clicked thats why.
 
-const key = function(e){
-    e.addEventListener('keypressed',closemodal)
+document.addEventListener('keydown',function(e){
+    console.log(e.key);
+    if(e.key==='Escape' && !modal.classList.contains('hidden')){
+    closemodal();
+    }
+    else{
+
+    }
 }
+);
