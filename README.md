@@ -10,7 +10,7 @@ A simple number guessing game built using HTML,CSS, and JavaScript
 
 ## How to Run
 1. Download the project
-2.  2. Open index.html in a browser
+2. Open index.html in a browser
  
 ## Author
 Brunda
